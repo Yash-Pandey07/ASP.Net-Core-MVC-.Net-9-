@@ -3,5 +3,38 @@
 *@
 @model MyApp.Models.Item
 @{
+    var message = "Hello from Overview Page!";
+    var items = new List<string> { "Item1", "Item2", "Item3" };
+    var isLoggedIn = true;
 }
-<p>This is the name of the item @Model.Name and Id is @Model.Id </p>
+
+<h3>Razor Directives</h3>
+<p>This is the name of the item @Model.Name and Id is @Model.Id </p><br />
+
+<p>@message</p>
+<br />
+<h3>Expressoins</h3>
+
+<ul>
+    @foreach(var item in items)
+    {
+        <li>@item</li>
+    }
+</ul>
+<h3>Conditional statemets</h3>
+@if (isLoggedIn){
+    <p>Welcome back!</p>
+}
+else
+{
+    <p>Please log in.</p>
+}
+
+<h3>Tag Helpers</h3>
+<form asp-action="Name">
+    <div>
+        <input asp-for="Name" />
+    </div>
+
+    <button type="submit">Submit</button>
+</form>

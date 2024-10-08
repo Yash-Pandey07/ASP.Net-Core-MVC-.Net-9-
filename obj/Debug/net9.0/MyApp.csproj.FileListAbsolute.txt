@@ -92,3 +92,4 @@ C:\Users\Yash\source\repos\MyApp\MyApp\obj\Debug\net9.0\compressed\h1u4buj6aq-5p
 C:\Users\Yash\source\repos\MyApp\MyApp\obj\Debug\net9.0\compressed\mhb0mw2804-mlv21k5csn.gz
 C:\Users\Yash\source\repos\MyApp\MyApp\obj\Debug\net9.0\compressed\e47kscwtul-1cslrmzbgp.gz
 C:\Users\Yash\source\repos\MyApp\MyApp\obj\Debug\net9.0\compressed\954s3ukdwn-1cslrmzbgp.gz
+C:\Users\Yash\source\repos\MyApp\MyApp\obj\Debug\net9.0\MyApp.sourcelink.json
