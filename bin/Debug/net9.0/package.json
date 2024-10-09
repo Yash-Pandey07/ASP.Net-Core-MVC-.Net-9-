@@ -1,0 +1,13 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "\"# ASP.Net-Core-MVC-.Net-9-\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --proxy 'localhost:5000' --files 'wwwroot/**/*'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
