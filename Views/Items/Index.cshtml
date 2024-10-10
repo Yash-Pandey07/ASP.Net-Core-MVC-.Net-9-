@@ -1,0 +1,43 @@
+﻿@model List<MyApp.Models.Item>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h3>Items List</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* <tr>
+            <td>Widget A</td>
+            <td>$19.99</td>
+        </tr>
+        <tr>
+            <td>Gadget B</td>
+            <td>$29.99</td>
+        </tr>
+        <tr>
+            <td>Thingamajig C</td>
+            <td>$9.99</td>
+        </tr>
+        <tr>
+            <td>Doodad D</td>
+            <td>$14.99</td>
+        </tr> *@
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("N2")$</td>
+@*                 <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Delete">Delete</a>
+                </td> *@
+            </tr>
+        }
+    </tbody>
+</table>

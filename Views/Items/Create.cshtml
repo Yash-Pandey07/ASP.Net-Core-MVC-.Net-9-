@@ -1,0 +1,19 @@
+﻿@model MyApp.Models.Item
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Create an item</h3>
+
+<form asp-action="create" method="post">
+    <div class="form-group">
+        <lable formaction="Name">Name</lable>
+        <input type="text" class="form-control" asp-for="Name" />
+    </div><br />
+    <div class="form-group">
+        <lable formaction="Name">Price</lable>
+        <input type="number" class="form-control" asp-for="Price" />
+    </div><br />
+    <button type="submit" class="btn btn-primary" >Submit</button>
+</form>
