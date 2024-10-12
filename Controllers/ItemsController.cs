@@ -29,7 +29,7 @@ namespace MyApp.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var item = await _context.Items.ToListAsync();                 //making it async
+            var item = await _context.Items.Include(s => s.SerialNumber).ToListAsync();                 //making it async
             return View(item);
         }
         public IActionResult Create() { 
