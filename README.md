@@ -72,9 +72,6 @@ Follow along with the [full course on YouTube](https://www.youtube.com/watch?v=R
 ## 🤝 Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
 
-## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## 📬 Contact
 For any inquiries or support, feel free to reach out.
 
