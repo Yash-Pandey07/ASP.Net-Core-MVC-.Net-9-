@@ -26,7 +26,7 @@ Follow along with the [full course on YouTube](https://www.youtube.com/watch?v=R
 
 1. **Clone the repository**:
     ```sh
-    git clone [Yash-Pandey07/ASP.Net-Core-MVC-.Net-9](https://github.com/Yash-Pandey07/ASP.Net-Core-MVC-.Net-9-.git)
+    git clone https://github.com/Yash-Pandey07/ASP.Net-Core-MVC-.Net-9-.git
     cd ASP.Net-Core-MVC-.Net-9
     ```
 
